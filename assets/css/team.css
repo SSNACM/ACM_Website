@@ -342,7 +342,6 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 1200px;
   flex-wrap: wrap;
   padding: 24px 0px;
 }
