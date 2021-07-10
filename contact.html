@@ -74,7 +74,9 @@
       </div>
 
       <div class="contact-form">
-        <form action="https://formspree.io/f/myyldyad" method="post">
+        <form data-email="snehaskannan@gmail.com" class="gform"
+          action="https://script.google.com/macros/s/AKfycbzUwoBQ2mj7lowlP9A0v6JlQgt4BEpnWvnG6NOAYeuRKR4kUXPGbqMd7EPsg8on8s6gQQ/exec"
+          method="post">
           <h3 class="title">Contact us</h3>
           <div class="input-container">
             <input type="text" name="name" class="input" placeholder="Name" />
@@ -89,6 +91,10 @@
             <textarea name="message" class="input" placeholder="Message"></textarea>
           </div>
           <input type="submit" value="Send" class="btn" />
+          <div style="display:none" class="thankyou_message">
+            <!-- You can customize the thankyou message by editing the code below -->
+            <h5>We received your response!</h5>
+          </div>
         </form>
       </div>
     </div>
@@ -99,6 +105,7 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+
   <script>
     AOS.init();
     $(".box-video").click(function () {
@@ -106,6 +113,8 @@
       $(this).addClass('open');
     });
   </script>
+  <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
 </body>
 <footer id="footer">
   <div class="footer-top">
