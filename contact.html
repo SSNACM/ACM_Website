@@ -53,8 +53,7 @@
   </section>
 
 
-  <div class="contactcontainer">
-    <img src="img/shape.png" class="square" alt="" />
+  <div class="contactcontainer" data-aos="fade-right" data-aos-duration="500">
     <div class="form">
       <div class="contact-info">
         <h3 class="title">Let's get in touch</h3>
@@ -100,7 +99,13 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
-
+  <script>
+    AOS.init();
+    $(".box-video").click(function () {
+      $('iframe', this)[0].src += "&amp;autoplay=1";
+      $(this).addClass('open');
+    });
+  </script>
 </body>
 <footer id="footer">
   <div class="footer-top">

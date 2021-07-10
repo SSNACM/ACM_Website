@@ -56,7 +56,7 @@
   <div class="container" style="margin-bottom: 2em;margin-top: 2em;">
     <div class="row flex">
       <div class="col-md-4 col-sm-6">
-        <div class="thumbnail">
+        <div class="thumbnail" data-aos="fade-in" data-aos-duration="500">
           <img src="./assets/img/gallery/codingevent.jpg" class="image">
           <div class="container-caption">
             <p>Workshop on Essentials for Coding Interviews<br>4th July 2021
@@ -72,7 +72,13 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
-
+  <script>
+    AOS.init();
+    $(".box-video").click(function () {
+      $('iframe', this)[0].src += "&amp;autoplay=1";
+      $(this).addClass('open');
+    });
+  </script>
 </body>
 <footer id="footer">
   <div class="footer-top">
