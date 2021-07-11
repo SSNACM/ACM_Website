@@ -274,7 +274,7 @@ h6 {
 
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #fafaff;
+  background-color: #ededf1d2;
   min-height: 40px;
   margin-top: 80px;
 }
@@ -287,7 +287,7 @@ h6 {
 
 .breadcrumbs h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 }
 

@@ -246,7 +246,7 @@ h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color: #ee0979;
 }
 
 .navbar-mobile a:hover,
@@ -816,6 +816,7 @@ button:hover .button-text {
 }
 .aboutssn {
   width: auto;
+  text-align: justify;
 }
 /*parallax*/
 .parallax {
@@ -832,9 +833,20 @@ button:hover .button-text {
   position: relative;
   max-width: 600px;
   width: 90%;
-  margin: -30px auto;
+  margin: 10px auto;
 }
-
+.yttitle {
+  font-weight: 900 !important;
+  font-size: 6vh;
+  background-color: #13eeac;
+  background-size: 100%;
+  background-image: linear-gradient(to right, #30cfd0 40%, #5ad67d 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
 .box-video {
   position: relative;
   width: 100%;
@@ -875,6 +887,7 @@ button:hover .button-text {
 }
 
 /*Testimonials*/
+
 .testimonials h3 {
   margin-bottom: 20px;
 }
@@ -891,7 +904,28 @@ button:hover .button-text {
   line-height: 75px;
   margin: -40px auto 0 auto;
 }
+/*===*/
 
+/*===*/
+.col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.col-md-3 img {
+  width: 100%;
+  height: auto;
+}
+body .carousel-indicators li {
+  background-color: #010351;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+  background-color: #010351;
+}
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
 /*Footer*/
 
 #footer {
