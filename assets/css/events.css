@@ -344,7 +344,7 @@ h6 {
 }
 .wrapper {
   margin: 30px auto;
-  max-width: 1100px;
+  max-width: 1400px;
   height: 180%;
 }
 .wrapper nav {
@@ -354,12 +354,13 @@ h6 {
 .wrapper .items {
   display: flex;
   max-width: 820px;
-  width: 100%;
+  width: 30%;
   justify-content: space-between;
 }
+
 .items span {
   padding: 3px 10px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   cursor: pointer;
   color: #007bff;
@@ -380,7 +381,7 @@ h6 {
 }
 .gallery .image {
   width: calc(100% / 4);
-  padding: 7px;
+  padding: 20px;
 }
 .gallery .image span {
   display: flex;
@@ -450,6 +451,9 @@ h6 {
 @media (max-width: 600px) {
   .wrapper {
     margin: 30px auto;
+  }
+  .wrapper .items {
+    width: 50%;
   }
   .wrapper nav .items {
     flex-wrap: wrap;
