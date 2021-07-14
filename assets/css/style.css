@@ -99,7 +99,6 @@ h6 {
 
 #header .logo h1 {
   font-size: 28px;
-  margin: ;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -150,7 +149,6 @@ h6 {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 1);
   text-shadow: 2px 2px 8px black;
-
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -249,7 +247,8 @@ h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #ee0979;
+  color: #0205a1;
+  text-shadow: none;
 }
 
 .navbar-mobile a:hover,
