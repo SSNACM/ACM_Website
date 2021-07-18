@@ -236,6 +236,7 @@ h6 {
   padding: 10px 0;
   border-radius: 8px;
   background-color: #fff;
+  height:40%;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -816,6 +817,7 @@ button:hover .button-text {
   display: table-cell;
   vertical-align: middle;
   border-radius: 1em;
+  background-color: white;
 }
 .aboutssn {
   width: auto;
@@ -914,9 +916,6 @@ button:hover .button-text {
   line-height: 75px;
   margin: -40px auto 0 auto;
 }
-/*===*/
-
-/*===*/
 .col-md-3 {
   display: inline-block;
   margin-left: -4px;

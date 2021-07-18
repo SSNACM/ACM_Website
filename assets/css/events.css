@@ -247,6 +247,7 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  height:40%;
 }
 
 .navbar-mobile > ul > li > a:before {
