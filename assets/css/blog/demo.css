@@ -1,0 +1,36 @@
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color: #3b393d;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+body.body--hidden {
+	overflow: hidden;
+}
+
+body.body--hidden .codrops-header,
+body.body--hidden .content--related {
+	opacity: 0;
+}
+
+ 
