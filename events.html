@@ -19,27 +19,40 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-sea-green.min.css">
-</head>
-
-<body>
   <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo">
-        <h1><a href="index.html"><img src="assets/img/acm-ssn.png"></a></h1>
+        <table>
+          <tr>
+            <td>
+              <h1><a href="index.html"><img src="assets/img/acm-ssn.png"></a></h1>
+            </td>
+            <td>
+              <h1><a href="https://www.ssn.edu.in/"><img src="assets/img/ssn.png"
+                    style="max-width: 5rem;margin-left: 5px;"></a>
+              </h1>
+            </td>
+          </tr>
+        </table>
       </div>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="./index.html">Home</a></li>
           <li><a class="nav-link scrollto active" href="#">Events</a></li>
-          <li><a class="nav-link scrollto" href="./team.html">Our Team</a></li>
+          <li><a class="nav-link scrollto" href="./team.html">Team</a></li>
           <li><a class="nav-link scrollto" href="./gallery.html">Gallery</a></li>
-          <!-- <li><a class="nav-link scrollto" href="./blog.html">Blog</a></li> -->
+          <li><a class="nav-link scrollto" href="./blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto " href="./slides.html">Slides</a></li>
           <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
     </div>
   </header>
+</head>
+
+<body>
+
   <section class="breadcrumbs">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
@@ -55,67 +68,89 @@
     <!-- filter Items -->
     <nav>
       <div class="items">
-        <span class="item" data-name="1516">2015-2016</span>
-        <span class="item" data-name="1617">2016-2017</span>
-        <span class="item" data-name="1718">2017-2018</span>
-        <span class="item" data-name="1819">2018-2019</span>
-        <span class="item" data-name="1920">2019-2020</span>
-        <span class="item" data-name="2021">2020-2021</span>
+        <span class="item" data-name="past">Past</span>
+
+        <!-- <span class="item" data-name="1516">2015-2016</span>
+        <span class="item" data-name="1617">2016-2017</span> -->
+        <!-- <span class="item" data-name="1718">2017-2018</span> -->
+        <!-- <span class="item" data-name="1819">2018-2019</span>
+        <span class="item" data-name="1920">2019-2020</span> -->
+        <!-- <span class="item" data-name="2021">2020-2021</span> -->
         <span class="item" data-name="2122">2021-2022</span>
         <span class="item active" data-name="upcoming">Upcoming</span>
       </div>
     </nav>
     <!-- filter Images -->
     <div class="gallery">
-      <div class="image hide" data-name="1516"><span><img class="myImg" src="./assets/img/events/15-16/cfh.png"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/15-16/cfh.jpg"
             alt=""></span></div>
-      <div class="image hide" data-name="1516"><span><img class="myImg" src="./assets/img/events/15-16/guestlec.png"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/15-16/guestlec.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1516"><span><img class="myImg" src="./assets/img/events/15-16/scitech.png"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/15-16/scitech.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1516"><span><img class="myImg" src="./assets/img/events/15-16/codecounty.jpg"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/15-16/codecounty.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1516"><span><img class="myImg" src="./assets/img/events/15-16/daa.png"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/15-16/daa.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1516"><span><img class="myImg" src="./assets/img/events/15-16/meetup.jpg"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/15-16/meetup.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1617"><span><img class="myImg" src="./assets/img/events/16-17/cfh.jpg"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/16-17/cfh.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1617"><span><img class="myImg" src="./assets/img/events/16-17/scitech.jpg"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/16-17/scitech.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1819"><span><img class="myImg" src="./assets/img/events/18-19/zoho.jpg"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/18-19/zoho.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1819"><span><img class="myImg" src="./assets/img/events/18-19/cfh.jpg"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/18-19/cfh.jpg"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1819"><span><img class="myImg" src="./assets/img/events/18-19/bc.png"
+      <!-- <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/18-19/bc.png"
+            alt=""></span>
+      </div> -->
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/19-20/cnn.png"
             alt=""></span>
       </div>
-      <div class="image hide" data-name="1920"><span><img class="myImg" src="./assets/img/events/19-20/cnn.png"
-            alt=""></span>
-      </div>
-      <div class="image hide" data-name="1920"><span><img class="myImg" src="./assets/img/events/19-20/compute.png"
+      <div class="image hide" data-name="past"><span><img class="myImg" src="./assets/img/events/19-20/compute.png"
             alt=""></span>
       </div>
       <div class="image hide" data-name="2122"><span><img class="myImg" src="./assets/img/events/21-22/vvvcoding.jpg"
             alt=""></span><button class="lm">
-          <a target="blank" href="https://www.youtube.com/watch?v=snZ_F8_Uahg"><i
-              class="fa fa-youtube"></i>&nbsp;Video</button></a>
-        <!-- <a><button class="lm">Blog</button></a> -->
+          <a target="blank" href="https://www.youtube.com/watch?v=k1l7Qi2ue1E"><i
+              class="fa fa-youtube"></i>&nbsp;Watch</button></a>
       </div>
-      <div class="image show" data-name="upcoming"><span><img class="myImg" src="./assets/img/events/careertalk.jpg"
-            alt=""></span><a target="blank" href="https://forms.gle/2e5EY77tSXaVxgH46"><button
-            class="lm">Register</button></a>
+      <div class="image hide" data-name="2122"><span><img class="myImg" src="./assets/img/events/21-22/careertalk.jpg"
+            alt=""></span><button class="lm"><a target="blank" href="https://www.youtube.com/watch?v=bZCrdu-ZqFs"><i
+              class="fa fa-youtube"></i>&nbsp;Watch</button></a>
       </div>
+      <div class="image hide" data-name="2122"><span><img class="myImg" src="./assets/img/events/21-22/macapp.jpg"
+            alt=""></span><button class="lm"><a target="blank" href="https://www.youtube.com/watch?v=7Ad2yJIq9P0"><i
+              class="fa fa-youtube"></i>&nbsp;Watch</button></a>
+      </div>
+      <div class="image hide" data-name="2122"><span><img class="myImg" src="./assets/img/events/21-22/expexe.jpg"
+            alt=""></span>
+            <button class="lm"><a target="blank" href="https://www.youtube.com/watch?v=VkfNifU-Yqk"><i
+              class="fa fa-youtube"></i>&nbsp;Watch</button></a>
+      </div>
+       <div class="image hide" data-name="2122"><span><img class="myImg" src="./assets/img/events/21-22/es.jpg"
+            alt=""></span>
+      </div>
+       <div class="image show" data-name="upcoming"><span><img class="myImg" src="./assets/img/events/pb.jpg"
+            alt=""></span>
+             <button class="lm"><a target="blank" href="https://forms.gle/apTWLC9TFUUT6g35A"><i
+              class="fa fa-link"></i>&nbsp;Register</button></a>
+      </div>
+      <!--<div class="image show" data-name="upcoming" style="text-align: center;width:100%">-->
+      <!--  <h4>Exciting Events Coming Up. Stay Tuned!</h4>-->
+      <!--</div>-->
     </div>
+
   </div>
   <!-- The Modal -->
   <div id="myModal" class="modal" style="margin-top: 5em;border:1px solid white">
