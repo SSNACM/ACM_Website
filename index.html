@@ -12,7 +12,6 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,9 +19,7 @@
   <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-sea-green.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
 </head>
 
 <body>
@@ -97,50 +94,30 @@
       </g>
     </svg>
   </section>
-
- <!--<div data-aos="fade-in" data-aos-duration="500" class="container eventslider">-->
- <!--   <div class="section-title">-->
- <!--     <h2>Upcoming Events</h2>-->
- <!--   </div>-->
- <!--   <div class="splide">-->
- <!--     <div class="splide__track">-->
- <!--       <ul class="splide__list">-->
- <!--         <li class="splide__slide">-->
- <!--           <div class="blog-card">-->
- <!--             <div class="meta card-3">-->
- <!--               <div class="datetime">-->
- <!--                 <table>-->
- <!--                   <tr>-->
- <!--                     <td rowspan="2"> <span class="date">29</span>-->
- <!--                     </td>-->
- <!--                     <td style="vertical-align:bottom"><span class="time"><b>Sept</b></span></td>-->
- <!--                   </tr>-->
- <!--                   <tr>-->
- <!--                     <td style="vertical-align:top">-->
- <!--                       <span class="time"><b>18:00</b></span>-->
- <!--                     </td>-->
- <!--                   </tr>-->
- <!--                 </table>-->
- <!--               </div>-->
- <!--             </div>-->
- <!--             <div class="description">-->
- <!--               <h2><b>Eminent Speaker Program</b></h2>-->
- <!--               <p>We are ecstatic to be joining hands with SSN ACM-W Student Chapter and ACM Chennai Regional Chapter to conduct our first Eminent Speaker</p>-->
- <!--               <div id="container">-->
- <!--                 <button class="learn-more">-->
- <!--                   <span class="circle" aria-hidden="true">-->
- <!--                     <span class="icon arrow"></span>-->
- <!--                   </span>-->
- <!--                   <a href="./events.html"> <span class="button-text">Learn More</span></a>-->
- <!--                 </button>-->
- <!--               </div>-->
- <!--             </div>-->
- <!--           </div>-->
- <!--         </li>-->
- <!--       </ul>-->
- <!--     </div>-->
- <!--   </div>-->
- <!-- </div>-->
+  <br />
+  <br />
+  <div class="blog-slider">
+    <div class="blog-slider__wrp swiper-wrapper">
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <a href="events.html">
+            <img src="assets/img/events/pb.jpg" alt="">
+          </a>
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">12 December 2021</span>
+          <div class="blog-slider__title">The Labyrinth Breaker</div>
+          <div class="blog-slider__text">An event that will help you hone your
+            puzzle-solving and aptitude skills.
+            Put on your thinking caps and take this opportunity to shine by navigating your way through the maze via
+            solving famous puzzles and stake your claim on the exciting cash prizes worth 6k!
+          </div>
+          <a href="https://forms.gle/apTWLC9TFUUT6g35A" target="_blank" class="blog-slider__button">Register</a>
+        </div>
+      </div>
+    </div>
+    <div class="blog-slider__pagination"></div>
+  </div>
   <div class="container aboutsection" style="margin-top:3rem;margin-bottom:3rem;">
     <div class="section-title" data-aos="fade-right" data-aos-duration="500">
       <h2>About SSN ACM</h2>
@@ -291,7 +268,8 @@
 
   <script src="assets/js/main.js"></script>
   <script src="assets/js/typing.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
   <script>
     // new Splide('.splide').mount();
     AOS.init();
@@ -301,7 +279,7 @@
     });
   </script>
   <script>
-      var swiper = new Swiper('.blog-slider', {
+    var swiper = new Swiper('.blog-slider', {
       spaceBetween: 30,
       effect: 'fade',
       loop: true,
