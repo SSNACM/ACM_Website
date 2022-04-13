@@ -386,13 +386,17 @@ h6 {
   box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.43);
 }
 
+.img-container-big {
+}
+.img-container {
+}
 .profile-box-big img {
   width: 178px;
   height: 180px;
   border-radius: 50%;
   box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   padding: 5px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .profile-box img {
   width: 160px;
@@ -400,7 +404,7 @@ h6 {
   border-radius: 50%;
   box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   padding: 5px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .profile-box h3,
