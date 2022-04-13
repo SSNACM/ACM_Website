@@ -1,132 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SSN ACM</title>
+    <link href="assets/img/acm-ssn.png" rel="icon" />
+    <link href="assets/img/acm-ssn.png" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/css/slides.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-sea-green.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>SSN ACM</title>
-  <link href="assets/img/acm-ssn.png" rel="icon">
-  <link href="assets/img/acm-ssn.png" rel="apple-touch-icon">
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/css/slides.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-sea-green.min.css">
-</head>
-
-<body>
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <table>
-          <tr>
-            <td>
-              <h1><a href="index.html"><img src="assets/img/acm-ssn.png"></a></h1>
-            </td>
-            <td>
-              <h1><a href="https://www.ssn.edu.in/"><img src="assets/img/ssn.png"
-                    style="max-width: 5rem;margin-left: 5px;"></a>
-              </h1>
-            </td>
-          </tr>
-        </table>
+  <body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <table>
+            <tr>
+              <td>
+                <h1>
+                  <a href="index.html"><img src="assets/img/acm-ssn.png" /></a>
+                </h1>
+              </td>
+              <td>
+                <h1>
+                  <a href="https://www.ssn.edu.in/"
+                    ><img src="assets/img/ssn.png" style="max-width: 5rem; margin-left: 5px"
+                  /></a>
+                </h1>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="./events.html">Events</a></li>
+            <li><a class="nav-link scrollto" href="./team.html">Team</a></li>
+            <li><a class="nav-link scrollto" href="./gallery.html">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="./blog.html">Blog</a></li>
+            <li><a class="nav-link scrollto active" href="./slides.html">Slides</a></li>
+            <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
       </div>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="./events.html">Events</a></li>
-          <li><a class="nav-link scrollto" href="./team.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="./gallery.html">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="./blog.html">Blog</a></li>
-          <li><a class="nav-link scrollto active" href="./slides.html">Slides</a></li>
-          <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-    </div>
-  </header>
-  <section class="breadcrumbs">
-    <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
-        <h2>Slides</h2>
-        <!-- <ol>
+    </header>
+    <section class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Slides</h2>
+          <!-- <ol>
           <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html"><u>Gallery</u></a></li>
         </ol> -->
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <div style="margin-bottom: 2em; margin-top: 2em">
+      <div id="large-th">
+        <div class="container2">
+          <br />
 
-  <div style="margin-bottom: 2em;margin-top: 2em;">
-    <div id="large-th">
-      <div class="container2">
-        <br>
-
-        <div id="list-th">
-          <a href="./slides/coding.pdf" target="_blank">
-            <div class="book read">
-              <div class="cover slide 1">
-                <img src="./slides/coding.jpg">
+          <div id="list-th">
+            <a href="./slides/coding.pdf" target="_blank">
+              <div class="book read">
+                <div class="cover slide 1">
+                  <img src="./slides/coding.jpg" />
+                </div>
               </div>
-            </div>
-          </a>
-          <a href="./slides/career.pdf" target="_blank">
-            <div class="book read">
-              <div class="cover">
-                <img src="./slides/career.jpg">
+            </a>
+            <a href="./slides/career.pdf" target="_blank">
+              <div class="book read">
+                <div class="cover">
+                  <img src="./slides/career.jpg" />
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script>
-    AOS.init();
-    $(".box-video").click(function () {
-      $('iframe', this)[0].src += "&amp;autoplay=1";
-      $(this).addClass('open');
-    });
-  </script>
-</body>
-<footer id="footer">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-        <div class="social-container">
-          <ul class="social-icons">
-            <li><a target="blank" href="https://www.instagram.com/ssn_acm/"><i class="fa fa-instagram"></i></a></li>
-            <li><a target="blank" href="https://www.twitch.tv/ssnacm"><i class="fa fa-twitch"></i></a></li>
-            <li><a target="blank" href="https://www.linkedin.com/company/acm-student-chapter-ssnce/"><i
-                  class="fa fa-linkedin"></i></a></li>
-            <li><a target="blank" href="https://www.facebook.com/SsnAcmStudentChapter/"><i
-                  class="fa fa-facebook"></i></a></li>
-            <li><a target="blank" href="https://www.youtube.com/channel/UCjNGj4-EFi8zwNXDqp_f-3w"><i
-                  class="fa fa-youtube"></i></a></li>
-          </ul>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      AOS.init();
+      $(".box-video").click(function () {
+        $("iframe", this)[0].src += "&amp;autoplay=1";
+        $(this).addClass("open");
+      });
+    </script>
+  </body>
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="social-container">
+            <ul class="social-icons">
+              <li>
+                <a target="blank" href="https://www.instagram.com/ssn_acm/"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a target="blank" href="https://www.twitch.tv/ssnacm"
+                  ><i class="fa fa-twitch"></i
+                ></a>
+              </li>
+              <li>
+                <a target="blank" href="https://www.linkedin.com/company/acm-student-chapter-ssnce/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a target="blank" href="https://www.facebook.com/SsnAcmStudentChapter/"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a target="blank" href="https://www.youtube.com/channel/UCjNGj4-EFi8zwNXDqp_f-3w"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container" style="padding-bottom: 1em;">
-    <div class="copyright">
-      &copy; Copyright <strong><span>SSN ACM 2021</span></strong>. All Rights Reserved
+    <div class="container" style="padding-bottom: 1em">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SSN ACM 2022</span></strong
+        >. All Rights Reserved
+      </div>
     </div>
-  </div>
-</footer>
-
+  </footer>
 </html>
