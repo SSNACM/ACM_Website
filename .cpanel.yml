@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ssnhost/public_html/
-    - /bin/cp -R /home/ssnhost/repositories/ACM_Website $DEPLOYPATH
+    - /bin/cp -R /home/ssnhost/repositories/ACM_Website/* $DEPLOYPATH
