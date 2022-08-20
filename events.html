@@ -83,6 +83,9 @@
             <button class="select-year">Select Year &dtrif;</button>
             <ul class="dropdown-inner dropdown-list">
               <li class="dropdown-item dropdown-li">
+                <button onclick="filterEvents(event);" data-name="1415">2014-2015</button>
+              </li>
+              <li class="dropdown-item dropdown-li">
                 <button onclick="filterEvents(event);" data-name="1516">2015-2016</button>
               </li>
               <li class="dropdown-item dropdown-li">
@@ -98,9 +101,6 @@
                 <button onclick="filterEvents(event);" data-name="1920">2019-2020</button>
               </li>
               <li class="dropdown-item dropdown-li">
-                <button onclick="filterEvents(event);" data-name="2021">2020-2021</button>
-              </li>
-              <li class="dropdown-item dropdown-li">
                 <button onclick="filterEvents(event);" data-name="2122">2021-2022</button>
               </li>
               <li class="dropdown-item dropdown-li">
@@ -111,6 +111,15 @@
         </ul>
       </div>
       <div class="gallery">
+        <div class="image hide" data-name="1819">
+          <span><img class="myImg" src="./assets/img/events/18-19/blockchain.png" alt="" /></span>
+        </div>
+        <div class="image hide" data-name="1415">
+          <span><img class="myImg" src="./assets/img/events/14-15/acmesp.jpg" alt="" /></span>
+        </div>
+        <div class="image hide" data-name="1415">
+          <span><img class="myImg" src="./assets/img/events/14-15/hadoop.jpg" alt="" /></span>
+        </div>
         <div class="image hide" data-name="2122">
           <span><img class="myImg" src="./assets/img/events/21-22/vvvcoding.jpg" alt="" /></span
           ><button class="lm">
