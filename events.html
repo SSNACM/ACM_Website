@@ -266,11 +266,10 @@
     <script src="assets/js/main.js"></script>
     <script>
       const filterImg = document.querySelectorAll(".gallery .image");
-      function filterEvents(e) {
-        let filterName = e.target.getAttribute("data-name");
+      function displayEvents(year) { 
         filterImg.forEach((image) => {
           let filterImges = image.getAttribute("data-name");
-          if (filterImges == filterName) {
+          if (filterImges == year) {
             image.classList.remove("hide");
             image.classList.add("show");
           } else {
@@ -279,6 +278,13 @@
           }
         });
       }
+      
+      function filterEvents(e) {
+        let filterName = e.target.getAttribute("data-name");
+        displayEvents(filterName);
+      }
+
+      displayEvents("2324"); // Display current year by default
     </script>
     <script>
       // Get the modal
