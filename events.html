@@ -235,12 +235,17 @@
             >
           </button>
         </div>
-        <div class="image hide" data-name="2324">
+        <div class="image hide" data-name="2223">
           <span
-            ><img class="myImg" src="./assets/img/events/23-24/sustainable_financial_journey.jpeg" alt="sustainable_financial_journey_poster"
+            ><img class="myImg" src="./assets/img/events/22-23/sustainable_financial_journey.jpeg" alt="sustainable_financial_journey_poster"
           /></span>
         </div>
-        <div class="image hide" data-name="2122" style="text-align: center; width: 100%">
+        <div class="image hide" data-name="2324">
+          <span
+            ><img class="myImg" src="./assets/img/events/23-24/orientation.jpeg" alt="ACM Orientation - 31st October, 2023"
+          /></span>
+        </div>
+        <div class="image hide" data-name="2324" style="text-align: center; width: 100%">
           <h4>Exciting Events Coming Up. Stay Tuned!</h4>
         </div>
         <div class="image show" data-name="upcoming" style="text-align: center; width: 100%">
@@ -261,11 +266,10 @@
     <script src="assets/js/main.js"></script>
     <script>
       const filterImg = document.querySelectorAll(".gallery .image");
-      function filterEvents(e) {
-        let filterName = e.target.getAttribute("data-name");
+      function displayEvents(year) { 
         filterImg.forEach((image) => {
           let filterImges = image.getAttribute("data-name");
-          if (filterImges == filterName) {
+          if (filterImges == year) {
             image.classList.remove("hide");
             image.classList.add("show");
           } else {
@@ -274,6 +278,13 @@
           }
         });
       }
+      
+      function filterEvents(e) {
+        let filterName = e.target.getAttribute("data-name");
+        displayEvents(filterName);
+      }
+
+      displayEvents("2324"); // Display current year by default
     </script>
     <script>
       // Get the modal
