@@ -1,0 +1,12 @@
+{
+  "name": "acm_website",
+  "version": "1.0.0",
+  "description": "Welcome to the official repository for the ACM Student Chapter website at [SSN College of Engineering](https://www.ssn.edu.in)! Here, you will find all the source code and assets for our website, which is dedicated to promoting computer science and technology education and opportunities for students at SSN College.",
+  "main": "form-submission-handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
