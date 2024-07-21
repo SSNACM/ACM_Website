@@ -1,632 +1,934 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>SSN ACM</title>
-  <link href="assets/img/acm-ssn.png" rel="icon">
-  <link href="assets/img/acm-ssn.png" rel="apple-touch-icon">
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/blog/card.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/blog/demo.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/blog/pattern.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="assets/css/blog.css" rel="stylesheet">
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <table>
-          <tr>
-            <td>
-              <h1><a href="index.html"><img src="assets/img/acm-ssn.png"></a></h1>
-            </td>
-            <td>
-              <h1><a href="https://www.ssn.edu.in/"><img src="assets/img/ssn.png"
-                    style="max-width: 5rem;margin-left: 5px;"></a>
-              </h1>
-            </td>
-          </tr>
-        </table>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SSN ACM</title>
+    <link href="assets/img/acm-ssn.png" rel="icon" />
+    <link href="assets/img/acm-ssn.png" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/blog/card.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/blog/demo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/blog/pattern.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="assets/css/blog.css" rel="stylesheet" />
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <table>
+            <tr>
+              <td>
+                <h1>
+                  <a href="index.html"><img src="assets/img/acm-ssn.png" /></a>
+                </h1>
+              </td>
+              <td>
+                <h1>
+                  <a href="https://www.ssn.edu.in/"
+                    ><img
+                      src="assets/img/ssn.png"
+                      style="max-width: 5rem; margin-left: 5px"
+                  /></a>
+                </h1>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
+            <li>
+              <a class="nav-link scrollto" href="./events.html">Events</a>
+            </li>
+            <li><a class="nav-link scrollto" href="./team.html">Team</a></li>
+            <li>
+              <a class="nav-link scrollto" href="./gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto active" href="./blog.html">Blog</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="./slides.html">Slides</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
       </div>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="./index.html">Home</a></li>
-          <li><a class="nav-link scrollto " href="./events.html">Events</a></li>
-          <li><a class="nav-link scrollto" href="./team.html">Team</a></li>
-          <li><a class="nav-link scrollto " href="./gallery.html">Gallery</a></li>
-          <li><a class="nav-link scrollto active" href="./blog.html">Blog</a></li>
-          <li><a class="nav-link scrollto " href="./slides.html">Slides</a></li>
-          <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-    </div>
-  </header>
-</head>
+    </header>
+  </head>
 
-<body class="demo-1">
-
-
-  <header class="codrops-header">
-    <section class="breadcrumbs">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Blog</h2>
+  <body class="demo-1">
+    <header class="codrops-header">
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Blog</h2>
+          </div>
         </div>
-      </div>
-    </section>
-  </header>
-  <div class="container">
-    <div class="content">
-      <div class="pattern pattern--hidden"></div>
-      <div class="wrapper">
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath1">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath1)" width="1920" height="500" xlink:href="./assets/img/blog/b1.jpg">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title">Coding Essentials</h2>
-                <p class="card__subtitle">
-                </p>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author">Workshop on Essentials for Coding Interviews</span>
+      </section>
+    </header>
+    <div class="container">
+      <div class="content">
+        <div class="pattern pattern--hidden"></div>
+        <div class="wrapper">
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath1">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath1)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b1.jpg"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Coding Essentials</h2>
                 </div>
-                <p></p>
-                <p>On the evening of July 4th, the ACM Student Chapter at SSN conducted a virtual workshop on the
-                  essentials for coding interviews to spur up the preparation process for the placement season. Vrishin
-                  Vigneshwar, an ACM-ICPC finalist and the incoming SDE at Motorq, delivered a 2-hour interactive
-                  session highlighting the essential preparation steps to perform well in placements, with a detailed
-                  emphasis on crucial competitive programming topics. This chapter’s first intra-college event of the
-                  academic year witnessed an overwhelming turnout of around 400 students with interactive Q&A throughout
-                  its duration.
-
-                  The first hour of the workshop pivoted around the competitive programming concepts that are frequently
-                  tested in programming interviews. The speaker attributed different levels of importance to each topic
-                  and categorized their relevance in technical rounds of different tiers of recruiters. Among the
-                  significant topics were dynamic programming, prefix sums, two-pointer problems, trees and graphs to
-                  underscore a few. The speaker shared his personal learning experience, links to online resources and
-                  empirical opinions concerning each topic to help the audience devise a more streamlined and
-                  time-effective preparation plan.
-
-                  The latter part of the session stressed the gravity of and the parts involved in developing, putting
-                  together and publicizing a striking personal profile. The speaker urged the students to build a
-                  one-page resume, accentuating their most marketable skills and work, to regularly update their
-                  LinkedIn profiles with all their activities and accomplishments and maintain their software projects
-                  on sharable code repositories like Github, among other key steps. A few noteworthy projects with a
-                  good visual appeal and indicative of sound proficiency in the concerned tools and architectures will
-                  strengthen the profiles.
-
-                  Finally, the speaker shared a few crucial pointers about “the interview psyche” and recommended that
-                  students take up mock interviews. He also laid out a detailed roadmap for students in each year of
-                  study, indicating what aspect of the preparation process they could focus on and how much depth and
-                  time they should attribute to each, given the amount of preparation time they have until the
-                  placements commence.
-
-                  A consolidated e-document, outlining all the topics discussed during the session and links to
-                  topic-wise learning resources, personally curated by the speaker, were handed out to the participants
-                  post the workshop. The event received remarkably positive feedback from the participants, thanking the
-                  speaker and the organizers for an effective and time-pertinent workshop.
-                </p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author"
+                      >Workshop on Essentials for Coding Interviews</span
+                    >
+                  </div>
+                  <p>
+                    On the evening of July 4th, the ACM Student Chapter at SSN
+                    conducted a virtual workshop on the essentials for coding
+                    interviews to spur up the preparation process for the
+                    placement season. Vrishin Vigneshwar, an ACM-ICPC finalist
+                    and the incoming SDE at Motorq, delivered a 2-hour
+                    interactive session highlighting the essential preparation
+                    steps to perform well in placements, with a detailed
+                    emphasis on crucial competitive programming topics. This
+                    chapter's first intra-college event of the academic year
+                    witnessed an overwhelming turnout of around 400 students
+                    with interactive Q&A throughout its duration. The first hour
+                    of the workshop pivoted around the competitive programming
+                    concepts that are frequently tested in programming
+                    interviews. The speaker attributed different levels of
+                    importance to each topic and categorized their relevance in
+                    technical rounds of different tiers of recruiters. Among the
+                    significant topics were dynamic programming, prefix sums,
+                    two-pointer problems, trees and graphs to underscore a few.
+                    The speaker shared his personal learning experience, links
+                    to online resources and empirical opinions concerning each
+                    topic to help the audience devise a more streamlined and
+                    time-effective preparation plan. The latter part of the
+                    session stressed the gravity of and the parts involved in
+                    developing, putting together and publicizing a striking
+                    personal profile. The speaker urged the students to build a
+                    one-page resume, accentuating their most marketable skills
+                    and work, to regularly update their LinkedIn profiles with
+                    all their activities and accomplishments and maintain their
+                    software projects on sharable code repositories like Github,
+                    among other key steps. A few noteworthy projects with a good
+                    visual appeal and indicative of sound proficiency in the
+                    concerned tools and architectures will strengthen the
+                    profiles. Finally, the speaker shared a few crucial pointers
+                    about “the interview psyche” and recommended that students
+                    take up mock interviews. He also laid out a detailed roadmap
+                    for students in each year of study, indicating what aspect
+                    of the preparation process they could focus on and how much
+                    depth and time they should attribute to each, given the
+                    amount of preparation time they have until the placements
+                    commence. A consolidated e-document, outlining all the
+                    topics discussed during the session and links to topic-wise
+                    learning resources, personally curated by the speaker, were
+                    handed out to the participants post the workshop. The event
+                    received remarkably positive feedback from the participants,
+                    thanking the speaker and the organizers for an effective and
+                    time-pertinent workshop.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath2">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="./assets/img/blog/b2.jpg">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title">Career Paths</h2>
-                <p class="card__subtitle">
-                </p>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author">What next after Graduation?</span>
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath2">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath2)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b2.jpg"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Career Paths</h2>
                 </div>
-                <p></p>
-                <p>The ACM Student Chapter hosted a talk on the 11th of July to demystify career options after
-                  graduation and empower students to make an informed pursuit of their goals. Satish Palaniappan,
-                  Software Engineer at Microsoft and an alumnus of SSN, addressed the students with an outline of the
-                  various possibilities and his experiential wisdom. As a working professional in the US, his
-                  discussions hinged around career options in India and in the US which may, however, be coarsely
-                  generalized to other countries as well. The 2-hour long virtual session witnessed over 120
-                  participants.
-
-                  The talk started with a brief overview of Satish’s journey from SSN to a master’s at the John Hopkins
-                  University and the eventual realization of his dream to be a Machine Learning Engineer. It was through
-                  his first internship program at NIT, Karnataka that he realized his passion for Machine Learning.
-                  Intimidated by the extensive technical know-how of his peers, he repulsed his urge to give-up and
-                  worked persistently throughout the program to prove himself. Building an OCR engine for Indus Scripts
-                  that gathered media attention and his novel role as a software engineer at Qube Cinemas in developing
-                  ML systems to improve movie-watching experience were among his cherishable experiences as a beginner.
-                  Speaking emphatically, he urged students to seize every opportunity to work on their interests and to
-                  never fear failure.
-
-                  The speaker then laid out the typical career routes which could include pursuing a job in India and
-                  possibly transferring to one in the US later, a master’s abroad right after graduation or working for
-                  a year or two before starting master’s, to mention a few. He advised students to concretely realise
-                  their end goal and suitably work towards it.
-
-                  The talk further elaborated on working towards and putting together a remarkable personal profile,
-                  shortlisting potential US universities and applying to them. A good balance between test scores,
-                  experience and writing samples, according to the speaker, is crucial to being accepted. He then gave a
-                  comprehensive outline of what each aspect of the application entails. Notably, he emphasized on the
-                  importance of composing an effective Statement of Purpose which must ideally be personalized to suit
-                  each university and markedly demonstrate one’s reason for choosing their school. Good projects and
-                  internships, exhibiting one’s depth of research and hard work will register a positive impact on the
-                  experience aspect and the application as a whole, he added.
-
-                  In the latter parts of the talk, the speaker brought out marked differences in the job search process
-                  between India and the US. While every Indian institute boasts and asserts its fame and reputation
-                  through its campus placement statistics, on the flip side, this is practically an alien concept in US
-                  universities. While online application portals are the conventional method to apply to firms, landing
-                  job interviews through referrals and peer networking is remarkably more effective. Preparing and
-                  performing well in the interviews is the next most critical step and the speaker narrated his
-                  interview experience at Amazon and Microsoft whilst describing the typical assessment techniques. An
-                  eminent piece of advice in the context of job seeking, often highlighted by experts as did the
-                  speaker, is to prepare a fine, structured one-page resume and to be vocal during interviews.
-
-                  The talk concluded with the speaker describing his present work-life balance and nature of work and
-                  addressing participant queries. The event received an overall positive feedback from the participants.
-
-                </p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author"
+                      >What next after Graduation?</span
+                    >
+                  </div>
+                  <p>
+                    The ACM Student Chapter hosted a talk on the 11th of July to
+                    demystify career options after graduation and empower
+                    students to make an informed pursuit of their goals. Satish
+                    Palaniappan, Software Engineer at Microsoft and an alumnus
+                    of SSN, addressed the students with an outline of the
+                    various possibilities and his experiential wisdom. As a
+                    working professional in the US, his discussions hinged
+                    around career options in India and in the US which may,
+                    however, be coarsely generalized to other countries as well.
+                    The 2-hour long virtual session witnessed over 120
+                    participants. The talk started with a brief overview of
+                    Satish's journey from SSN to a master's at the John Hopkins
+                    University and the eventual realization of his dream to be a
+                    Machine Learning Engineer. It was through his first
+                    internship program at NIT, Karnataka that he realized his
+                    passion for Machine Learning. Intimidated by the extensive
+                    technical know-how of his peers, he repulsed his urge to
+                    give-up and worked persistently throughout the program to
+                    prove himself. Building an OCR engine for Indus Scripts that
+                    gathered media attention and his novel role as a software
+                    engineer at Qube Cinemas in developing ML systems to improve
+                    movie-watching experience were among his cherishable
+                    experiences as a beginner. Speaking emphatically, he urged
+                    students to seize every opportunity to work on their
+                    interests and to never fear failure. The speaker then laid
+                    out the typical career routes which could include pursuing a
+                    job in India and possibly transferring to one in the US
+                    later, a master's abroad right after graduation or working
+                    for a year or two before starting master's, to mention a
+                    few. He advised students to concretely realise their end
+                    goal and suitably work towards it. The talk further
+                    elaborated on working towards and putting together a
+                    remarkable personal profile, shortlisting potential US
+                    universities and applying to them. A good balance between
+                    test scores, experience and writing samples, according to
+                    the speaker, is crucial to being accepted. He then gave a
+                    comprehensive outline of what each aspect of the application
+                    entails. Notably, he emphasized on the importance of
+                    composing an effective Statement of Purpose which must
+                    ideally be personalized to suit each university and markedly
+                    demonstrate one's reason for choosing their school. Good
+                    projects and internships, exhibiting one's depth of research
+                    and hard work will register a positive impact on the
+                    experience aspect and the application as a whole, he added.
+                    In the latter parts of the talk, the speaker brought out
+                    marked differences in the job search process between India
+                    and the US. While every Indian institute boasts and asserts
+                    its fame and reputation through its campus placement
+                    statistics, on the flip side, this is practically an alien
+                    concept in US universities. While online application portals
+                    are the conventional method to apply to firms, landing job
+                    interviews through referrals and peer networking is
+                    remarkably more effective. Preparing and performing well in
+                    the interviews is the next most critical step and the
+                    speaker narrated his interview experience at Amazon and
+                    Microsoft whilst describing the typical assessment
+                    techniques. An eminent piece of advice in the context of job
+                    seeking, often highlighted by experts as did the speaker, is
+                    to prepare a fine, structured one-page resume and to be
+                    vocal during interviews. The talk concluded with the speaker
+                    describing his present work-life balance and nature of work
+                    and addressing participant queries. The event received an
+                    overall positive feedback from the participants.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Card -->
+          <!-- Card -->
 
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath3">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath3)" width="1920" height="500" xlink:href="./assets/img/blog/b3.jpg">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title"> Successful Entrepreneur</h2>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author">What it takes to be a Successful Entrepreneur?</span>
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath3">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath3)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b3.jpg"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Successful Entrepreneur</h2>
                 </div>
-                <p class="card__subtitle">
-                </p>
-                <p></p>
-                <p>On July 15th, the ACM Student Chapter of SSN invited Suresh Kumar G, the CEO of MacApStudio and Pepul
-                  to address the students. The speaker shared his journey in establishing MacAppStudio and pointed out
-                  the necessary qualities and expertise to build a startup. Followed by an extensive Q&A, this event was
-                  attended by an audience of over 200.
-
-                  The speaker shared his truly inspiring personal journey of struggle, perseverance, and eventual
-                  success in the first hour. After engineering, he joined a high-rewarding job in the US. Later with
-                  hard work and determination, he and his friend won Intel's Worldwide Developer challenge and came
-                  first among 18000 Developers from top universities. Subsequently, they won many such awards and became
-                  the Youngest and First in Asia to be Intel BlackBelts.Both of them left the cushy jobs and started
-                  MacAppStudio in Chennai, they faced numerous hurdles and pitfalls and struggled for three years. Their
-                  faith in the path chosen and their value system transformed MacAppStudio into a Multi-Billion dollar
-                  company.
-                  Their distinctive hiring without resume process is intended to break stereotypes about Developers.
-                  They rigorously train talented recruits and produce hardworking and highly skilled employees.
-
-                  In the latter part, the speaker shared some nuggets of wisdom he follows using many relatable
-                  anecdotes. The most important one being the power of belief, if a person believes in themselves then
-                  anything can be accomplished. He motivated the audience to decide on a final objective and work
-                  towards that in small incremental goals. Ignore the naysayers and have good intentions and thoughts.
-                  Always be ready for failure and put it in perspective. Have big dreams, and consistently work hard. Do
-                  not compare yourself with others, have gratitude, and don't forget your origins. Contribute positively
-                  to society to give meaning to your life.
-
-                  Finally, there was a comprehensive Q&A with over 25 questions. He explained in detail the vision of
-                  MacAppStudio to touch and improve the lives of billions of people. How his extracurricular work in
-                  design and animation helped his career. He encouraged every fresher to give innovative solutions to
-                  the problems in their company. Society in general advocates to "Play it Safe" because of a fear of
-                  failure, but if the entrepreneur is confident about taking risks and the idea behind the startup
-                  solves a relevant problem then success is assured. With regards to funding, the Bootstrap model is
-                  preferred by the speaker because the entrepreneur isn't answerable to anyone. This enabled them to
-                  create a people-first business model which rewards, recognition and respects the employees. A unique
-                  example of this is when they hired an employee based on his ability to tend to plants and trained him
-                  in project management to take care of people. When asked about the secret of their success he humbly
-                  replied pure intentions, support system, and hard work. He reiterated that being passionate about the
-                  work a person does will keep them motivated and avoid burnout.
-
-                  The speaker's down-to-earth nature with practical inputs and relatable way of addressing the audience
-                  were thought-provoking and positively influenced them to dream bigger and work to achieve their
-                  ambitions. The event received overwhelmingly positive feedback.
-
-                </p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author"
+                      >What it takes to be a Successful Entrepreneur?</span
+                    >
+                  </div>
+                  <p>
+                    On July 15th, the ACM Student Chapter of SSN invited Suresh
+                    Kumar G, the CEO of MacApStudio and Pepul to address the
+                    students. The speaker shared his journey in establishing
+                    MacAppStudio and pointed out the necessary qualities and
+                    expertise to build a startup. Followed by an extensive Q&A,
+                    this event was attended by an audience of over 200. The
+                    speaker shared his truly inspiring personal journey of
+                    struggle, perseverance, and eventual success in the first
+                    hour. After engineering, he joined a high-rewarding job in
+                    the US. Later with hard work and determination, he and his
+                    friend won Intel's Worldwide Developer challenge and came
+                    first among 18000 Developers from top universities.
+                    Subsequently, they won many such awards and became the
+                    Youngest and First in Asia to be Intel BlackBelts.Both of
+                    them left the cushy jobs and started MacAppStudio in
+                    Chennai, they faced numerous hurdles and pitfalls and
+                    struggled for three years. Their faith in the path chosen
+                    and their value system transformed MacAppStudio into a
+                    Multi-Billion dollar company. Their distinctive hiring
+                    without resume process is intended to break stereotypes
+                    about Developers. They rigorously train talented recruits
+                    and produce hardworking and highly skilled employees. In the
+                    latter part, the speaker shared some nuggets of wisdom he
+                    follows using many relatable anecdotes. The most important
+                    one being the power of belief, if a person believes in
+                    themselves then anything can be accomplished. He motivated
+                    the audience to decide on a final objective and work towards
+                    that in small incremental goals. Ignore the naysayers and
+                    have good intentions and thoughts. Always be ready for
+                    failure and put it in perspective. Have big dreams, and
+                    consistently work hard. Do not compare yourself with others,
+                    have gratitude, and don't forget your origins. Contribute
+                    positively to society to give meaning to your life. Finally,
+                    there was a comprehensive Q&A with over 25 questions. He
+                    explained in detail the vision of MacAppStudio to touch and
+                    improve the lives of billions of people. How his
+                    extracurricular work in design and animation helped his
+                    career. He encouraged every fresher to give innovative
+                    solutions to the problems in their company. Society in
+                    general advocates to "Play it Safe" because of a fear of
+                    failure, but if the entrepreneur is confident about taking
+                    risks and the idea behind the startup solves a relevant
+                    problem then success is assured. With regards to funding,
+                    the Bootstrap model is preferred by the speaker because the
+                    entrepreneur isn't answerable to anyone. This enabled them
+                    to create a people-first business model which rewards,
+                    recognition and respects the employees. A unique example of
+                    this is when they hired an employee based on his ability to
+                    tend to plants and trained him in project management to take
+                    care of people. When asked about the secret of their success
+                    he humbly replied pure intentions, support system, and hard
+                    work. He reiterated that being passionate about the work a
+                    person does will keep them motivated and avoid burnout. The
+                    speaker's down-to-earth nature with practical inputs and
+                    relatable way of addressing the audience were
+                    thought-provoking and positively influenced them to dream
+                    bigger and work to achieve their ambitions. The event
+                    received overwhelmingly positive feedback.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Card -->
+          <!-- Card -->
 
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath4">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="./assets/img/blog/b4.jpg">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title"> Experience to Excellence</h2>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author">A Webinar on Navigating your Career Path
-                  </span>
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath4">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath4)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b4.jpg"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Experience to Excellence</h2>
                 </div>
-                <p class="card__subtitle">
-                </p>
-                <p></p>
-                <p>The ACM Student Chapter conducted an online webinar where Mr. Balaji Nagaraj Kumar, Product Manager
-                  at Volvo Cars, Sweden and the Founder and CEO of DataTor Labs, Sweden, was invited to be the guest
-                  speaker. As a successful engineer with immense industrial experience and academic training from across
-                  5 countries in a range of fields spanning across technical sciences and business management, he
-                  addressed the participants with his idea and approach to building a successful career path. The 2-hour
-                  long virtual session witnessed over 90 participants.<br /><br />
-                  To give the audience a background of his life, the speaker began with a brief overview of his
-                  professional journey across the world . As a
-                  young physics enthusiast, Mr. Balaji chose to pursue his engineering bachelors in electrical
-                  engineering. After working for 2 years at MuSigma and Ford Motors, he went on to pursue his masters in
-                  a prestigious fully-funded cross-university program in Europe. This markedly opened up an array of
-                  opportunities for him, as he developed a global academic and work exposure, experiencing diverse
-                  cultures and gathering exposure along the way. “Play to your strengths” and “adapt to the world around
-                  you” were his words of wisdom at the end of this enthralling narrative.
-                  <br /><br /> According to the speaker, an engineering course lays the foundation for thinking
-                  logically in a technical context. He regarded critical thinking, implementation thinking, conceptual
-                  thinking, innovation thinking and intuitive thinking as the fundamental skills an engineer must look
-                  to hone. With that piece of advice, he brought out the differences between working in large corporate
-                  organizations and embarking on startups. As a global graduate recruit at Volvo, he described his
-                  experience working on real-world systems as part of a global team. He spotlighted the importance of
-                  effective communication skills and a strong technical know-how to work among the experts in the
-                  corporate world. Being an entrepreneur, on the other hand, entails a lot of perseverance and an
-                  immense cross-domain knowledge in combination with a strong business perspective. After enduring four
-                  unsuccessful startups at different points in his career, Mr. Balaji is now the founder of DataTor
-                  Labs, a data-privacy firm based out of Sweden. Pointing out what went wrong in each of his earlier
-                  endeavors, he stressed on the need to be prepared to face and learn from failures.
-                  <br /><br />
-                  Finally, the speaker presented an aggregation of his industrial wisdom and round-the-world exposure in
-                  the form of a “framework” to being a successful engineer and a social human being as a whole, called
-                  “You Design U”. It urges one to understand the world around oneself and work coherently with the
-                  others. It also describes a structured way to deal with and solve problems along the way to carving a
-                  path to and eventually realizing one’s dream and destiny.
-                  <br /><br />
-                  Throughout this engaging session, Mr. Balaji emphasized on the importance of learning at every stage
-                  of life, always keeping the “big-picture” in mind and preparing for and persevering through the
-                  inevitable downs on the way to achieving one’s goals. The webinar concluded with a Q&A session with
-                  the speaker
-
-                </p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author"
+                      >A Webinar on Navigating your Career Path
+                    </span>
+                  </div>
+                  <p>
+                    The ACM Student Chapter conducted an online webinar where
+                    Mr. Balaji Nagaraj Kumar, Product Manager at Volvo Cars,
+                    Sweden and the Founder and CEO of DataTor Labs, Sweden, was
+                    invited to be the guest speaker. As a successful engineer
+                    with immense industrial experience and academic training
+                    from across 5 countries in a range of fields spanning across
+                    technical sciences and business management, he addressed the
+                    participants with his idea and approach to building a
+                    successful career path. The 2-hour long virtual session
+                    witnessed over 90 participants.<br /><br />
+                    To give the audience a background of his life, the speaker
+                    began with a brief overview of his professional journey
+                    across the world . As a young physics enthusiast, Mr. Balaji
+                    chose to pursue his engineering bachelors in electrical
+                    engineering. After working for 2 years at MuSigma and Ford
+                    Motors, he went on to pursue his masters in a prestigious
+                    fully-funded cross-university program in Europe. This
+                    markedly opened up an array of opportunities for him, as he
+                    developed a global academic and work exposure, experiencing
+                    diverse cultures and gathering exposure along the way. “Play
+                    to your strengths” and “adapt to the world around you” were
+                    his words of wisdom at the end of this enthralling
+                    narrative.
+                    <br /><br />
+                    According to the speaker, an engineering course lays the
+                    foundation for thinking logically in a technical context. He
+                    regarded critical thinking, implementation thinking,
+                    conceptual thinking, innovation thinking and intuitive
+                    thinking as the fundamental skills an engineer must look to
+                    hone. With that piece of advice, he brought out the
+                    differences between working in large corporate organizations
+                    and embarking on startups. As a global graduate recruit at
+                    Volvo, he described his experience working on real-world
+                    systems as part of a global team. He spotlighted the
+                    importance of effective communication skills and a strong
+                    technical know-how to work among the experts in the
+                    corporate world. Being an entrepreneur, on the other hand,
+                    entails a lot of perseverance and an immense cross-domain
+                    knowledge in combination with a strong business perspective.
+                    After enduring four unsuccessful startups at different
+                    points in his career, Mr. Balaji is now the founder of
+                    DataTor Labs, a data-privacy firm based out of Sweden.
+                    Pointing out what went wrong in each of his earlier
+                    endeavors, he stressed on the need to be prepared to face
+                    and learn from failures. <br /><br />
+                    Finally, the speaker presented an aggregation of his
+                    industrial wisdom and round-the-world exposure in the form
+                    of a “framework” to being a successful engineer and a social
+                    human being as a whole, called “You Design U”. It urges one
+                    to understand the world around oneself and work coherently
+                    with the others. It also describes a structured way to deal
+                    with and solve problems along the way to carving a path to
+                    and eventually realizing one's dream and destiny.
+                    <br /><br />
+                    Throughout this engaging session, Mr. Balaji emphasized on
+                    the importance of learning at every stage of life, always
+                    keeping the “big-picture” in mind and preparing for and
+                    persevering through the inevitable downs on the way to
+                    achieving one's goals. The webinar concluded with a Q&A
+                    session with the speaker
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Card -->
+          <!-- Card -->
 
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath5">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath5)" width="1920" height="500" xlink:href="./assets/img/blog/b5.png">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title"> SSN ACM Orientation</h2>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author"> SSN ACM Student Chapter kickoff</span>
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath5">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath5)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b5.png"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">SSN ACM Orientation</h2>
                 </div>
-                <p class="card__subtitle">
-                </p>
-                <p></p>
-                <p>
-                  October 30th, 2023 marked the SSN ACM Student Chapter orientation meeting, the official beginning of the Student Chapter of 2023. Assembled on the vibrant evening, the team's diverse members shared a common zeal for technology. Leaders elucidated the mission and introduced their teams. 
-                </br></br>
-                Sanjjit and Jeevesh started off the meet with a brief introduction of what ACM is and what it does. This was followed by Sarika and Gayathri who spoke about the educational purposes, scientific purposes and goals of this particular chapter in SSN.
-                Following this, was the introduction of each team, taken up by the head or deputy heads of each vertical. Sarath and Nila then proceeded to throw some light upon previous events and outreach programs conducted by the SSN ACM Student Chapter. 
-              </br></br>
-                There were 63 students present in the call from across all departments. They inquired about multiple aspects of the club. It was clear to see that the club and its activities, both future and prior, had intrigued them, and the club hoped to see many of those faces in the future events. The students had the opportunity to network with other members of the Computer Science Department, allowing them to meet new people. 
-              </br></br>
-                Haricharan introduced the ACM membership and its benefits, some of which are networking and volunteering opportunities. He began by first explaining the process to obtain the membership: by joining the annual membership drive and keeping up with the social media handles of the club for any new updates. The members were then encouraged to contribute to the student chapter by actively engaging in various activities like volunteering, competitions and hackathons. 
-              </br></br>
-                Finally, the planned events of this year were discussed. Hour of Code, the first event of this new season of SSN ACM was particularly highlighted. The ideas for this event were discussed, along with a brief overview of the event plan. The club looks forward to the new events of the year and is absolutely thrilled for a new season of SSN ACM Student Chapter. They welcome everyone to join aboard this journey!
-                </p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author">
+                      SSN ACM Student Chapter kickoff</span
+                    >
+                  </div>
+
+                  <p>
+                    October 30th, 2023 marked the SSN ACM Student Chapter
+                    orientation meeting, the official beginning of the Student
+                    Chapter of 2023. Assembled on the vibrant evening, the
+                    team's diverse members shared a common zeal for technology.
+                    Leaders elucidated the mission and introduced their teams.
+                    <br /><br />
+                    Sanjjit and Jeevesh started off the meet with a brief
+                    introduction of what ACM is and what it does. This was
+                    followed by Sarika and Gayathri who spoke about the
+                    educational purposes, scientific purposes and goals of this
+                    particular chapter in SSN. Following this, was the
+                    introduction of each team, taken up by the head or deputy
+                    heads of each vertical. Sarath and Nila then proceeded to
+                    throw some light upon previous events and outreach programs
+                    conducted by the SSN ACM Student Chapter.
+                    <br /><br />
+                    There were 63 students present in the call from across all
+                    departments. They inquired about multiple aspects of the
+                    club. It was clear to see that the club and its activities,
+                    both future and prior, had intrigued them, and the club
+                    hoped to see many of those faces in the future events. The
+                    students had the opportunity to network with other members
+                    of the Computer Science Department, allowing them to meet
+                    new people.
+                    <br /><br />
+                    Haricharan introduced the ACM membership and its benefits,
+                    some of which are networking and volunteering opportunities.
+                    He began by first explaining the process to obtain the
+                    membership: by joining the annual membership drive and
+                    keeping up with the social media handles of the club for any
+                    new updates. The members were then encouraged to contribute
+                    to the student chapter by actively engaging in various
+                    activities like volunteering, competitions and hackathons.
+                    <br /><br />
+                    Finally, the planned events of this year were discussed.
+                    Hour of Code, the first event of this new season of SSN ACM
+                    was particularly highlighted. The ideas for this event were
+                    discussed, along with a brief overview of the event plan.
+                    The club looks forward to the new events of the year and is
+                    absolutely thrilled for a new season of SSN ACM Student
+                    Chapter. They welcome everyone to join aboard this journey!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Card -->
+          <!-- Card -->
 
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath6">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath6)" width="1920" height="500" xlink:href="./assets/img/blog/b6.png">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title"> Introduction to UNIX Commands</h2>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author"> Unlock the Power of UNIX: A Comprehensive Workshop by SSN-ACM </span>
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath6">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath6)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b6.png"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Introduction to UNIX Commands</h2>
                 </div>
-                <p class="card__subtitle">
-                </p>
-                <p></p>
-                <p>
-                  The first workshop, Introduction to UNIX commands, was conducted by the SSN-ACM student
-chapter as a beginner-oriented course to help students unlock the full potential of the dynamic
-UNIX command line interface conducted by two fourth-year students, Akil Karthikeyan and
-Vaishnave J P. The event was overseen by the Faculty coordinator Dr. Sujaudeen N with the help
-of student coordinators Sarath Donepudi and Sarika Esackimuthu.
-</br></br>
-The first day revolved around basic UNIX commands such as creating, navigating and deleting
-directories. It was followed by a detailed explanation of file permissions and an understanding of
-the various types of ownerships. The participants worked on managing and changing these
-permissions to gain a better grasp of its nuances. Following this, the concepts of piping and
-sorting were introduced in which participants learnt how to establish temporary connections
-between commands and manipulate the types of sorting. The final concept for Day 1 was pattern
-matching and searching using Regex and Grep. The participants were guided on the various
-symbols and commands used to match characters effectively.
-</br></br>
-The second day of the workshop delved deeper into the interface and explored concepts like
-alternation, grouping and quantifiers that add more functionality to the interface. The hands-on
-experience was provided on grouping using the (?) quantifier and its capabilities. This was
-followed by an introduction to awk, one of the most prominent text-processing utilities used in
-UNIX. The participants learned how to read commands from a text file and print the contents in
-various formats. Side by side the participants coded the awk commands and implemented line
-counting and arrays as well as patterns. The workshop concluded with a brief explanation of how
-awk can be used for built-in variables, control flow statements, looping constructs and built-in
-functions.
-</br></br>
-All participants left the session satisfied and eager to implement all that they had learned to
-enhance their coding prowess and make the best use of the UNIX command line interface!
-                </p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author">
+                      Unlock the Power of UNIX: A Comprehensive Workshop by
+                      SSN-ACM
+                    </span>
+                  </div>
+                  <p>
+                    The first workshop, Introduction to UNIX commands, was
+                    conducted by the SSN-ACM student chapter as a
+                    beginner-oriented course to help students unlock the full
+                    potential of the dynamic UNIX command line interface
+                    conducted by two fourth-year students, Akil Karthikeyan and
+                    Vaishnave J P. The event was overseen by the Faculty
+                    coordinator Dr. Sujaudeen N with the help of student
+                    coordinators Sarath Donepudi and Sarika Esackimuthu.
+                    <br /><br />
+                    The first day revolved around basic UNIX commands such as
+                    creating, navigating and deleting directories. It was
+                    followed by a detailed explanation of file permissions and
+                    an understanding of the various types of ownerships. The
+                    participants worked on managing and changing these
+                    permissions to gain a better grasp of its nuances. Following
+                    this, the concepts of piping and sorting were introduced in
+                    which participants learnt how to establish temporary
+                    connections between commands and manipulate the types of
+                    sorting. The final concept for Day 1 was pattern matching
+                    and searching using Regex and Grep. The participants were
+                    guided on the various symbols and commands used to match
+                    characters effectively.
+                    <br /><br />
+                    The second day of the workshop delved deeper into the
+                    interface and explored concepts like alternation, grouping
+                    and quantifiers that add more functionality to the
+                    interface. The hands-on experience was provided on grouping
+                    using the (?) quantifier and its capabilities. This was
+                    followed by an introduction to awk, one of the most
+                    prominent text-processing utilities used in UNIX. The
+                    participants learned how to read commands from a text file
+                    and print the contents in various formats. Side by side the
+                    participants coded the awk commands and implemented line
+                    counting and arrays as well as patterns. The workshop
+                    concluded with a brief explanation of how awk can be used
+                    for built-in variables, control flow statements, looping
+                    constructs and built-in functions.
+                    <br /><br />
+                    All participants left the session satisfied and eager to
+                    implement all that they had learned to enhance their coding
+                    prowess and make the best use of the UNIX command line
+                    interface!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Card -->
+          <!-- Card -->
 
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath7">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath7)" width="1920" height="500" xlink:href="./assets/img/blog/b7.png">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title"> Hour Of Code </h2>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author">A Dive into AI Innovation: Highlights from Hour of Code</span>
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath7">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath7)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b7.png"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Hour Of Code</h2>
                 </div>
-                <p class="card__subtitle">
-                </p>
-                <p></p>
-                <p>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author"
+                      >A Dive into AI Innovation: Highlights from Hour of
+                      Code</span
+                    >
+                  </div>
                   <h4><strong>Introduction</strong></h4>
 
-The "Hour of Code" online event, which commenced on December 6th, 2023 at 1:30 PM, was an exploration of creativity in the realm of Artificial Intelligence (AI). Hosted virtually, the event had 36 enthusiastic participants, who were actively engaged in the challenges. In his opening address, Jeevesh Krishna, head of ACM SSN, extended a warm welcome to the participants, and provided a comprehensive overview of the event's objectives and emphasizing the significance of creativity in the field of AI. 
-</br></br>
-<h4><strong>1. AI Trivia Challenge</strong></h4>
+                  <p>
+                    The "Hour of Code" online event, which commenced on December
+                    6th, 2023 at 1:30 PM, was an exploration of creativity in
+                    the realm of Artificial Intelligence (AI). Hosted virtually,
+                    the event had 36 enthusiastic participants, who were
+                    actively engaged in the challenges. In his opening address,
+                    Jeevesh Krishna, head of ACM SSN, extended a warm welcome to
+                    the participants, and provided a comprehensive overview of
+                    the event's objectives and emphasizing the significance of
+                    creativity in the field of AI.
+                  </p>
+                  <br /><br />
+                  <h4><strong>1. AI Trivia Challenge</strong></h4>
 
-<h5>Round 1 - Crossword Puzzle</h5>
+                  <h5>Round 1 - Crossword Puzzle</h5>
 
-The first challenge of the day was the AI Trivia Challenge, and the first round was a crossword puzzle. Participants were presented with hints to fill in the crossword, testing their knowledge and creativity in AI. Participants fervently submitted their answers within the allotted 10 minutes via the chat box.
-</br></br> 
+                  <p>
+                    The first challenge of the day was the AI Trivia Challenge,
+                    and the first round was a crossword puzzle. Participants
+                    were presented with hints to fill in the crossword, testing
+                    their knowledge and creativity in AI. Participants fervently
+                    submitted their answers within the allotted 10 minutes via
+                    the chat box.
+                  </p>
+                  <br /><br />
 
-<h5>Round 2 - AI Knowledge Quiz</h5>
-Following the crossword puzzle, the second round involved an AI Knowledge Quiz. This segment tested participants' awareness of the evolving landscape of AI, spanning the progress made in recent years. Vaishnavi T expertly led both rounds, guiding participants through a series of questions that sparked excitement and yielded a plethora of responses.
-</br></br> 
+                  <h5>Round 2 - AI Knowledge Quiz</h5>
+                  <p>
+                    Following the crossword puzzle, the second round involved an
+                    AI Knowledge Quiz. This segment tested participants'
+                    awareness of the evolving landscape of AI, spanning the
+                    progress made in recent years. Vaishnavi T expertly led both
+                    rounds, guiding participants through a series of questions
+                    that sparked excitement and yielded a plethora of responses.
+                  </p>
+                  <br /><br />
 
-<h4><strong>2. AI Image Generation</strong></h4>
-Rakshith took charge of leading the AI Image Generation Challenge, providing each team with the second challenge instructions. To facilitate focused work, Vaishnavi efficiently organized breakout rooms for each team, ensuring a seamless and collaborative environment. Each team was presented with a specific image and tasked with generating the closest possible approximation using text prompts. Leveraging tools like NVIDIA Playground, participants were challenged to translate textual descriptions into visual representations within a time limit of 30 minutes. The culmination of the challenge revealed a remarkable display of creativity, with each team presenting images that closely matched the given prompts. 
-</br></br>
+                  <h4><strong>2. AI Image Generation</strong></h4>
+                  <p>
+                    Rakshith took charge of leading the AI Image Generation
+                    Challenge, providing each team with the second challenge
+                    instructions. To facilitate focused work, Vaishnavi
+                    efficiently organized breakout rooms for each team, ensuring
+                    a seamless and collaborative environment. Each team was
+                    presented with a specific image and tasked with generating
+                    the closest possible approximation using text prompts.
+                    Leveraging tools like NVIDIA Playground, participants were
+                    challenged to translate textual descriptions into visual
+                    representations within a time limit of 30 minutes. The
+                    culmination of the challenge revealed a remarkable display
+                    of creativity, with each team presenting images that closely
+                    matched the given prompts.
+                  </p>
+                  <br /><br />
 
-<h4><strong>3. Semantle</strong></h4>
-The event unfolded with the third challenge, the Semantic Challenge. Gayathri provided insightful instructions, while the coordination efforts of Hishitha and Samyuktaa ensured a smooth and engaging experience for the participants. Participants transitioned into their respective breakout rooms, where they were tasked with guessing words and determining their semantic similarity to a secret word. The interactive nature of this challenge encouraged participants to work collaboratively. The challenge extended beyond word recognition, evolving into an engaging riddle-solving activity. 
-</br></br> 
- 
-<h4><strong>4. Website Replication Challenge</strong></h4>
+                  <h4><strong>3. Semantle</strong></h4>
+                  <p>
+                    The event unfolded with the third challenge, the Semantic
+                    Challenge. Gayathri provided insightful instructions, while
+                    the coordination efforts of Hishitha and Samyuktaa ensured a
+                    smooth and engaging experience for the participants.
+                    Participants transitioned into their respective breakout
+                    rooms, where they were tasked with guessing words and
+                    determining their semantic similarity to a secret word. The
+                    interactive nature of this challenge encouraged participants
+                    to work collaboratively. The challenge extended beyond word
+                    recognition, evolving into an engaging riddle-solving
+                    activity.
+                  </p>
+                  <br /><br />
 
-"Hour of Code" reached its crescendo with the fourth and final challenge - the Website Replication Challenge. This challenge provided participants with an opportunity to apply their skills in handling the Large Language Models blend with their coding skills and creativity by replicating a website. Yashasvee orchestrated the challenge by offering clear instructions and providing participants with essential website images and requirements. This event spanned 45 minutes, during which participants were tasked with replicating a given website. The challenge featured an interactive query session facilitated through the chat box. Participants were encouraged to seek clarification and guidance, fostering a collaborative learning environment. Yashasvee's responsiveness to participant queries ensured a supportive atmosphere throughout the challenge. 
-</br></br>
+                  <h4><strong>4. Website Replication Challenge</strong></h4>
+                  <p>
+                    "Hour of Code" reached its crescendo with the fourth and
+                    final challenge - the Website Replication Challenge. This
+                    challenge provided participants with an opportunity to apply
+                    their skills in handling the Large Language Models blend
+                    with their coding skills and creativity by replicating a
+                    website. Yashasvee orchestrated the challenge by offering
+                    clear instructions and providing participants with essential
+                    website images and requirements. This event spanned 45
+                    minutes, during which participants were tasked with
+                    replicating a given website. The challenge featured an
+                    interactive query session facilitated through the chat box.
+                    Participants were encouraged to seek clarification and
+                    guidance, fostering a collaborative learning environment.
+                    Yashasvee's responsiveness to participant queries ensured a
+                    supportive atmosphere throughout the challenge.
+                  </p>
+                  <br /><br />
 
-<h4><strong>Conclusion</strong></h4>
+                  <h4><strong>Conclusion</strong></h4>
 
-Sanjjit S, in a heartfelt vote of thanks, acknowledged the participants for their active involvement and dedication throughout the event. Sanjjit also announced that the winners of the various challenges would be duly recognized, adding an element of anticipation to the event's closure. The Hour of Code had thus come to a close as a well-received and enjoyable experience for all.
- 
-
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card -->
-
-        <!-- card -->
-        <div class="card">
-          <div class="card__container card__container--closed">
-            <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <clipPath id="clipPath8">
-                  <circle class="clip" cx="960" cy="250" r="992"></circle>
-                </clipPath>
-              </defs>
-              <image clip-path="url(#clipPath8)" width="1920" height="500" xlink:href="./assets/img/blog/b8.png">
-              </image>
-            </svg>
-            <div class="card__content">
-              <i class="card__btn-close fa fa-times"></i>
-              <div class="card__caption">
-                <h2 class="card__title"> Code From Home</h2>
-              </div>
-              <div class="card__copy">
-                <div class="meta">
-                  <span class="meta__author"> Empowering Coders: Highlights from "Code from Home" Event</span>
+                  <p>
+                    Sanjjit S, in a heartfelt vote of thanks, acknowledged the
+                    participants for their active involvement and dedication
+                    throughout the event. Sanjjit also announced that the
+                    winners of the various challenges would be duly recognized,
+                    adding an element of anticipation to the event's closure.
+                    The Hour of Code had thus come to a close as a well-received
+                    and enjoyable experience for all.
+                  </p>
                 </div>
-                <p class="card__subtitle">
-                </p>
-                <p></p>
-                <p>
-                  SSN-ACM Student Chapter organized a captivating event "Code from Home" on
-February 20th, 2024, delivering a thrilling experience for coding enthusiasts. Hosted
-on the platform HackerRank, the event garnered significant attention, with an 
-impressive total of 50 teams registering from various years and departments within the 
-institution. 37 teams had participated, showcasing an admirable level of enthusiasm and 
-dedication to the craft. This widespread engagement underscored the event's success in
-fostering a vibrant coding culture within the academic community.
-"Code from Home" served as a platform for students to exhibit their coding prowess 
-and problem- solving skills, nurturing both competition and collaboration among
-participants. The diverse array of questions presented a stimulating challenge, 
-spanning different difficulty levels and domains. From classic Data Structures and 
-Algorithms (DSA) challenges to intricate topics like Queuing Theory and
-Regression Analysis, participants were confronted with a broad spectrum of
-problem-solving scenarios. These eclectic questions not only tested their technical 
-cognition but also encouraged critical thinking and creative innovation in devising
-solutions.</br></br>
-Certificates were awarded to all participants, acknowledging their dedication and
-contribution to theevent. These certificates serve as a testament to their hard work and 
-commitment, providing a tangible recognition of their achievements in the realm of 
-coding and programming. Behind the scenes, the success of "Code from Home" was 
-made possible by the relentless efforts of the faculty coordinator Dr.N.Sujaudeen,
-AP, CSE and the Student Coordinator Sanjjit S of CSE along with the technical 
-team. From designing the contest structure to coordinating participants in real-time, the 
-core team exemplified exceptional professionalism and competence throughout the
-event's duration.</br></br>
-"ACM Code from Home" emerged as a resounding success, leaving an indelible
-impression on participants and organizers alike. The event not only provided a 
-platform for showcasing coding skills but also fostered mutual growth within the
-academic community. As the SSN-ACM Student Chapter continues its mission of
-promoting excellence in coding and programming, events like these serve ascatalysts
-for innovation, learning, and collaboration among students.</br></br>
-                </p>
               </div>
             </div>
           </div>
+          <!-- Card -->
+
+          <!-- card -->
+          <div class="card">
+            <div class="card__container card__container--closed">
+              <svg
+                class="card__image"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1920 500"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <clipPath id="clipPath8">
+                    <circle class="clip" cx="960" cy="250" r="992"></circle>
+                  </clipPath>
+                </defs>
+                <image
+                  clip-path="url(#clipPath8)"
+                  width="1920"
+                  height="500"
+                  xlink:href="./assets/img/blog/b8.png"
+                ></image>
+              </svg>
+              <div class="card__content">
+                <i class="card__btn-close fa fa-times"></i>
+                <div class="card__caption">
+                  <h2 class="card__title">Code From Home</h2>
+                </div>
+                <div class="card__copy">
+                  <div class="meta">
+                    <span class="meta__author">
+                      Empowering Coders: Highlights from "Code from Home"
+                      Event</span
+                    >
+                  </div>
+                  <p>
+                    SSN-ACM Student Chapter organized a captivating event "Code
+                    from Home" on February 20th, 2024, delivering a thrilling
+                    experience for coding enthusiasts. Hosted on the platform
+                    HackerRank, the event garnered significant attention, with
+                    an impressive total of 50 teams registering from various
+                    years and departments within the institution. 37 teams had
+                    participated, showcasing an admirable level of enthusiasm
+                    and dedication to the craft. This widespread engagement
+                    underscored the event's success in fostering a vibrant
+                    coding culture within the academic community. "Code from
+                    Home" served as a platform for students to exhibit their
+                    coding prowess and problem- solving skills, nurturing both
+                    competition and collaboration among participants. The
+                    diverse array of questions presented a stimulating
+                    challenge, spanning different difficulty levels and domains.
+                    From classic Data Structures and Algorithms (DSA) challenges
+                    to intricate topics like Queuing Theory and Regression
+                    Analysis, participants were confronted with a broad spectrum
+                    of problem-solving scenarios. These eclectic questions not
+                    only tested their technical cognition but also encouraged
+                    critical thinking and creative innovation in devising
+                    solutions.<br /><br />
+                    Certificates were awarded to all participants, acknowledging
+                    their dedication and contribution to theevent. These
+                    certificates serve as a testament to their hard work and
+                    commitment, providing a tangible recognition of their
+                    achievements in the realm of coding and programming. Behind
+                    the scenes, the success of "Code from Home" was made
+                    possible by the relentless efforts of the faculty
+                    coordinator Dr.N.Sujaudeen, AP, CSE and the Student
+                    Coordinator Sanjjit S of CSE along with the technical team.
+                    From designing the contest structure to coordinating
+                    participants in real-time, the core team exemplified
+                    exceptional professionalism and competence throughout the
+                    event's duration.<br /><br />
+                    "ACM Code from Home" emerged as a resounding success,
+                    leaving an indelible impression on participants and
+                    organizers alike. The event not only provided a platform for
+                    showcasing coding skills but also fostered mutual growth
+                    within the academic community. As the SSN-ACM Student
+                    Chapter continues its mission of promoting excellence in
+                    coding and programming, events like these serve ascatalysts
+                    for innovation, learning, and collaboration among
+                    students.<br /><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
         </div>
-        <!-- Card -->
-
+        <!-- wrapper -->
       </div>
-      <!-- wrapper -->
     </div>
-  </div>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/vendors/trianglify.min.js"></script>
-  <script src="assets/js/vendors/TweenMax.min.js"></script>
-  <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
-  <script src="assets/js/vendors/cash.min.js"></script>
-  <script src="assets/js/Card-circle.js"></script>
-  <script src="assets/js/demo.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-<footer id="footer" class="codrops-header">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-        <div class="social-container">
-          <ul class="social-icons">
-            <li><a target="blank" href="https://www.instagram.com/ssn_acm/"><i class="fa fa-instagram"></i></a></li>
-            <li><a target="blank" href="https://www.twitch.tv/ssnacm"><i class="fa fa-twitch"></i></a></li>
-            <li><a target="blank" href="https://www.linkedin.com/company/acm-student-chapter-ssnce/"><i
-                  class="fa fa-linkedin"></i></a></li>
-            <li><a target="blank" href="https://www.facebook.com/SsnAcmStudentChapter/"><i
-                  class="fa fa-facebook"></i></a></li>
-            <li><a target="blank" href="https://www.youtube.com/channel/UCjNGj4-EFi8zwNXDqp_f-3w"><i
-                  class="fa fa-youtube"></i></a></li>
-          </ul>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/vendors/trianglify.min.js"></script>
+    <script src="assets/js/vendors/TweenMax.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/cash.min.js"></script>
+    <script src="assets/js/Card-circle.js"></script>
+    <script src="assets/js/demo.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  <footer id="footer" class="codrops-header">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="social-container">
+            <ul class="social-icons">
+              <li>
+                <a target="blank" href="https://www.instagram.com/ssn_acm/"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="blank"
+                  href="https://www.linkedin.com/company/acm-student-chapter-ssnce/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="blank"
+                  href="https://www.facebook.com/SsnAcmStudentChapter/"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="blank"
+                  href="https://www.youtube.com/channel/UCjNGj4-EFi8zwNXDqp_f-3w"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container" style="padding-bottom: 1em;">
-    <div class="copyright">
-      &copy; Copyright <strong><span>SSN ACM 2024 </span></strong>. All Rights Reserved
+    <div class="container" style="padding-bottom: 1em">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SSN ACM 2024 </span></strong>. All Rights
+        Reserved
+      </div>
     </div>
-  </div>
-</footer>
-
+  </footer>
 </html>
